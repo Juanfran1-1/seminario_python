@@ -1,1 +1,1 @@
-# seminario_python
+# Juan Francisco Uceda Colombo 23484/1
