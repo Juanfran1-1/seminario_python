@@ -3,9 +3,8 @@ cantidad= int(input("Ingrese cantidad de numeros en la lista: "))
 for num in range(cantidad):
     ingresado=int(input("Ingrese numero: "))
     lista += [ingresado]
-print(lista)    
-listastring=[]
+concatenado= ""
 for num in lista:
     if num % 3 != 0:
-        listastring+=[str(num)]   
-    
+        concatenado += str(num) + "-"                    
+print(concatenado)
